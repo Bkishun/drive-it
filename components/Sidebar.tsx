@@ -33,14 +33,14 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
             height={80}
             className="h-auto"
           />
-          <p className="h1 text-white">DriveIt</p>
+          <p className="h1 text-blue-500">DriveIt</p>
         </div>
 
         <Image
           src="/assets/icons/logo-brand.png"
           alt="logo"
-          width={52}
-          height={52}
+          width={45}
+          height={45}
           className="lg:hidden"
         />
       </Link>
