@@ -25,9 +25,19 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
           height={50}
           className="hidden h-auto lg:block"
         />
+        <div className="items-center gap-2 hidden h-auto lg:flex ">
+          <Image
+            src="/assets/icons/logo-brand.png"
+            alt="logo"
+            width={80}
+            height={80}
+            className="h-auto"
+          />
+          <p className="h1 text-white">DriveIt</p>
+        </div>
 
         <Image
-          src="/assets/icons/logo-brand.svg"
+          src="/assets/icons/logo-brand.png"
           alt="logo"
           width={52}
           height={52}
@@ -42,7 +52,7 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
               <li
                 className={cn(
                   "sidebar-nav-item",
-                  pathname === url && "shad-active",
+                  pathname === url && "shad-active"
                 )}
               >
                 <Image
@@ -52,7 +62,7 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
                   height={24}
                   className={cn(
                     "nav-icon",
-                    pathname === url && "nav-icon-active",
+                    pathname === url && "nav-icon-active"
                   )}
                 />
                 <p className="hidden lg:block">{name}</p>
