@@ -49,8 +49,8 @@ const MobileNavigation = ({
         <Image
           src="/assets/icons/logo-brand.png"
           alt="logo"
-          width={80}
-          height={80}
+          width={52}
+          height={52}
           className="h-auto"
         />
         <p className="h1 text-white">DriveIt</p>
