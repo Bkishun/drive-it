@@ -39,8 +39,8 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
         <Image
           src="/assets/icons/logo-brand.png"
           alt="logo"
-          width={30}//45
-          height={30}//45
+          width={52}
+          height={52}
           className="lg:hidden"
         />
       </Link>
