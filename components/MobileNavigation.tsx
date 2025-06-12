@@ -53,7 +53,7 @@ const MobileNavigation = ({
           height={52}
           className="h-auto"
         />
-        <p className="h1 text-white">DriveIt</p>
+        <p className="h1 text-[#003366]">DriveIt</p>
       </div>
 
       <Sheet open={open} onOpenChange={setOpen}>
